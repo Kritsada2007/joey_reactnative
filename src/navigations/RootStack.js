@@ -11,7 +11,7 @@ const Stack = createStackNavigator()
 const RootStack = () => {
   return (
     <Stack.Navigator 
-    screenOptions={{headerShown:false}} initialRouteName='Animateable'>
+    screenOptions={{headerShown:false}} initialRouteName='Home'>
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="AnimateAPI" component={AnimateAPI} />
       <Stack.Screen name="AnimateType" component={AnimateType} />
